@@ -39,11 +39,11 @@ Your main artifact stays in view, and each remark, including its side conversati
 
 ## Get Margin
 
-**The first public Mac build is being prepared.** Downloads will appear on the [Releases page](https://github.com/domdewom/margin-app/releases) after release verification is complete.
+Visit the [Releases page](https://github.com/domdewom/margin-app/releases) for Margin downloads and release notes.
 
 The current desktop build targets **Apple Silicon Macs** (M-series chips). Intel Mac, Windows, and Linux builds are not currently available.
 
-Once a release is available:
+Installation:
 
 1. Download the `.dmg` from Releases.
 2. Open it and drag **Margin** into **Applications**.
@@ -51,7 +51,12 @@ Once a release is available:
 
 ## What you need
 
-Margin uses **Codex or Claude Code installed on your Mac**, with a supported subscription login. You'll need at least one of those tools installed and an account with access to it. Margin guides you through connecting an available agent.
+Margin connects to **Codex CLI or Claude Code installed on your Mac**, with a supported subscription login. Install at least one:
+
+- [Install Codex CLI](https://learn.chatgpt.com/docs/codex/cli)
+- [Install Claude Code](https://code.claude.com/docs/en/setup)
+
+Follow the tool's installation and sign-in instructions, then open Margin to connect it. You'll need an account with subscription access to the tool you choose.
 
 The desktop app uses those subscription connections; it doesn't require a separate AI API key. Provider usage limits still apply. You don't need this project's source code, Node.js, or Bun to run Margin itself.
 
